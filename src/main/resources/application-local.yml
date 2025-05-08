@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/real_estate_db
+    username: rais-bobo
+    password: rais-bobo
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false

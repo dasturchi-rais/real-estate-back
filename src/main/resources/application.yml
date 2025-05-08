@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: real-estate-back
+  profiles:
+    active: local
+
+
